@@ -2,8 +2,7 @@
 var map = L.map('map').setView([38, -95], 4);
 
 // Add OpenStreetMap to the map
-var basemapUrl = 'https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}
-';
+var basemapUrl = 'https://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}';
 var basemap = L.tileLayer(basemapUrl).addTo(map);
 
 // Add weather radar to the map
